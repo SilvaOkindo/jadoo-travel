@@ -1,8 +1,16 @@
+import {Book, Footer, Logos} from './components'
+import {Testimonials, TopDestinations, Services, Header} from './pages'
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl text-red-500">hello world</h1>
+    <div className='font-primary'>
+      <Header />
+      <Services />
+      <TopDestinations />
+      <Book />
+      <Logos />
+      <Testimonials />
+      <Footer />
     </div>
   )
 }

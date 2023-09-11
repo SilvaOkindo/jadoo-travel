@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+    min-height: 100vh;
+    background: url(../src/assets/Decore.png);
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+    background-size: contain;
+}
+
+
+
+/* 2xl
+
+*/
+@media ( max-width: 1536px) {
+ .header {
+  background-position-x: 750px;
+}
+}
+
+
+/* xl */
+@media ( max-width: 1280px) {
+  .header {
+    background-position-x: 500px;
+  }
+
+}
+
+
+
+/* lg*/
+@media ( max-width: 1024px) {
+    .header {
+        background-image: none;
+    }
+}
+
+/* md */
+/* @media ( max-width: 768px) {
+  
+} */
+
+
+
+/* sm */
+/* @media ( max-width: 640px) {
+      
+} */
+
+
+/* xs */
+/* @media ( max-width: 475px) {
+   
+} */
+
+
