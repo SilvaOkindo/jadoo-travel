@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+  .info-text {
+    @apply text-[18px] text-primary-color font-normal;
+  }
+}
+
 .header {
     min-height: 100vh;
     background: url(../src/assets/Decore.png);
@@ -13,6 +20,13 @@
 }
 
 
+
+
+/* .drop {
+  background: #59B1E6;
+  backdrop-filter: blur(70px);
+  -webkit-backdrop-filter: blur(70px);
+} */
 
 /* 2xl
 
